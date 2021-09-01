@@ -20,7 +20,7 @@
 			$n2 = @$_POST['n2'];
 			$n3 = @$_POST['n3'];
 			$resultado = ($n1 + $n2 + $n3)/$n3;
-			echo "<div class='card'><b>Resultado de ($n1 + $n2) / $n3 = </b> <b style='color: red;'>".$resultado."</b></div>";
+			echo "<div class='card'><b>Resultado de ($n1 + $n2 + $n3) / $n3 = </b> <b style='color: red;'>".$resultado."</b></div>";
 		}
 	?>
 	<br>
