@@ -13,6 +13,7 @@
 		<input type="number" name="ano" placeholder="Seu ano de nascimento" autocomplete="off">
 		<input type="submit" name="enviar" value="Enviar">
 	</form>
+	<br>
 	<?php  
 		if(isset($_POST['enviar'])){
 			$nome = @$_POST['nome'];

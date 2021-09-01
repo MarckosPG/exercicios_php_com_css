@@ -14,6 +14,7 @@
 		<input type="number" name="n3" placeholder="Terceiro numero">
 		<input type="submit" name="enviar" value="Enviar">
 	</form>
+	<br>
 	<?php  
 		if(isset($_POST['enviar'])){
 			$n1 = @$_POST['n1'];

@@ -13,6 +13,7 @@
 		<input type="number" name="n2" placeholder="Segundo numero">
 		<input type="submit" name="enviar" value="Enviar">
 	</form>
+	<br>
 	<?php  
 		if(isset($_POST['enviar'])){
 

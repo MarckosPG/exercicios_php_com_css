@@ -12,6 +12,7 @@
 		<input type="text" name="frase" placeholder="Digite a frase" autocomplete="off">
 		<input type="submit" name="enviar" value="Enviar">
 	</form>
+	<br>
 	<?php  
 		if(isset($_POST['enviar'])){
 			$frase = @$_POST['frase'];

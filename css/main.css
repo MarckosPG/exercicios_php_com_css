@@ -12,7 +12,7 @@ body{
 }
 
 input[type=text], input[type=number] {
-	background: white;
+	background: #f5f5f5;
 	padding: 15px;
 	border-radius: 10px;
 	outline: none;
@@ -21,12 +21,11 @@ input[type=text], input[type=number] {
   	display: inline-block;
   	box-sizing: border-box;
   	margin-bottom: 8px;
-  	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
 }
 
 input[type=submit] {
 	background: #48A4F0;
-	color: white;
+	color: #f5f5f5;
 	padding: 15px;
 	border-radius: 10px;
 	cursor: pointer;
@@ -34,7 +33,6 @@ input[type=submit] {
   	display: inline-block;
   	box-sizing: border-box;
   	margin-bottom: 8px;
-  	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
 }
 
 a{
@@ -45,12 +43,16 @@ a{
 h2{
 	text-align: center;
 	padding-top: 10%;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 form{
 	width: 300px;
 	margin:0 auto;
+	background-color: white;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
 }
 
 .controls{
@@ -74,8 +76,8 @@ span{
 .card{
 	background: white;
 	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
-	padding: 10px;
+	padding: 20px;
 	margin: 0 auto;
-	width: 280px;
+	width: 310px;
 	border-radius: 10px;
 }
